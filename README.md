@@ -1,5 +1,18 @@
 # Basic CH32V003 RISCV Makefile project
 
+Setup:
+
+```
+git clone https://github.com/gregdavill/CH32V003-makefile-example.git
+cd CH32V003-makefile-example
+git submodule init
+git submodule update
+
+cd docker
+make docker-image
+```
+
+
 Requirements:
  - xpack riscv toolchain
  Download from releases here, and add to your path.
